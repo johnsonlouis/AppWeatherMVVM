@@ -1,0 +1,10 @@
+platform :ios, '10.0'
+
+target 'AppWeather' do
+	pod 'Kingfisher', '5.12.0'
+	pod 'SwiftLint', '~> 0.38.0'
+
+	target 'AppWeatherTests' do
+	end
+
+end
